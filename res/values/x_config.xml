@@ -38,4 +38,9 @@
     <!-- Ultra Power Saving -->
     <bool name="config_supportUltraPowerSaving">true</bool>
 
+    <!-- Whether device supports refresh rate switch
+         config_defaultPeakRefreshRate shouldn't be defined as 60 on frameworks/base
+    -->
+    <bool name="config_supportsRefreshRateSwitch">true</bool>
+
 </resources>
